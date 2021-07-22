@@ -2,20 +2,28 @@
 
 ## ryo penta sequencer expander (eurorack 4HP)
 
-Currently v1 is NOT works well.
-
-(Issue: In summed gate output, a step produces 2 triggers because the step fall down signal overwraps the next step's clock.)
-
-Now planning to improve in v2.
+Currently manufacturing no problem. It works fine.
 
 ## function
 
-- per step gate output (gate length is a full of step)
+- per step **trigger** output
 - per step on/off switch
-- summed gate output (gate length is the same as clock gate length)
+- summed **trigger** output
 - hold on/off switch
 - hold input (signal high: hold on)
 
+## notes
+
+pcb v1 is main function.
+
+pcb v1plus is sub function of gate to trigger converter x5.
+
+If using pcb v1 only, it becomes per step gate output and summed gate output.
+In summed gate output, it has a problem that a step produces 2 triggers because the step fall down signal overwraps the next step's clock.
+
+If using pcb v1 and v1plus, it becomes per step trigger output and summed trigger output.
+Above gate problem is resolved.
+
 ## bom
 
-T.B.D.
+refer kicad files.
