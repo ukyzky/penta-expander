@@ -12,6 +12,10 @@ Currently manufacturing no problem. It works fine.
 - hold on/off switch
 - hold input (signal high: hold on)
 
+![Front image](pentaexpander_front.jpg?raw=true "Front image")
+
+![Back image](pentaexpander_back.jpg?raw=true "Back image")
+
 ## notes
 
 pcb v1 is main function.
